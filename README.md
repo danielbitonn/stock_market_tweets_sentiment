@@ -16,3 +16,25 @@ This analysis will be exploited to determine if there is any influence and how m
 
 [Ewelina Lacka, D. Eric Boyd, Gbenga Ibikunle, and P.K. Kannan (2021), *“Measuring the Real-Time Stock Market Impact of Firm-Generated Content”*, Journal of Marketing, Robert H. Smith School of Business at the University of Maryland](https://journals.sagepub.com/doi/pdf/10.1177/00222429211042848)
 ****
+
+## **Team**
+* Yehuda Finkelshtein
+* Guy Cohen
+* Daniel Biton
+****
+
+## **Datasets**
+* [Tweets dataset](https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020?select=Tweet.csv)
+****
+
+## **The challenge**
+**The key scientific question is:**
+> **How does Twitter affect the stock market?**
+
+
+Tagging and Filtering millions of tweets by their sentiment (`negative`, `positive` or `neutral`) refers to companies and checking the correlation by the time plot of the stock price to the sentiment analysis.
+
+We will use the `VADER-Sentiment-Analysis` to classify the given tweets to their sentiment segments.
+As we advance, we will compare how the company's price varies after the post.
+
+****
